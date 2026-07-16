@@ -1,0 +1,24 @@
+    /* COMPONENTS */
+@import url(/assets/css/components/nav.css);
+@import url(/assets/css/components/aside.css);
+@import url(/assets/css/components/buttons.css);
+@import url(/assets/css/components/terminal.css);
+@import url(/assets/css/components/footer.css);
+    /* PAGES */
+@import url(/assets/css/pages/home.css);
+@import url(/assets/css/pages/about.css);
+@import url(/assets/css/pages/projects.css);
+@import url(/assets/css/pages/contact.css);
+
+
+/*   ESTILIZAÇÕES GLOBAIS */ 
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}

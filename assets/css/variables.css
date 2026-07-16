@@ -1,0 +1,94 @@
+
+:root {
+
+    /* ========= Background ========= */
+
+    --bg-primary: #0D0F10;
+    --bg-secondary: #141617;
+    --bg-tertiary: #1A1C1E;
+    --bg-card: #111315;
+    --bg-hover: #1F2224;
+
+    /* ========= Texto ========= */
+
+    --text-primary: #F5F5F5;
+    --text-secondary: #B8B8B8;
+    --text-muted: #7C7C7C;
+    --text-hover: #000;
+
+    /* ========= Verde ========= */
+
+    --green: #00FF84;
+    --green-hover: #00E676;
+    --green-dark: #00C853;
+    --green-light: #63FFA8;
+
+    /* ========= Bordas ========= */
+
+    --border: #242729;
+    --border-light: #34383B;
+
+    /* ========= Sombras ========= */
+
+    --shadow: rgba(0,0,0,.45);
+
+    /* ========= Ícones ========= */
+
+    --icon: #D4D4D4;
+    --icon-hover: #FFFFFF;
+
+    /* ========= Status ========= */
+
+    --circle-green: #00FF84;
+    --circle-orange: #FF9800;
+    --circle-red: #FF5252;
+
+}
+
+
+:light {
+
+    /* ========= Background ========= */
+
+    --bg-primary: #F7F8FA;
+    --bg-secondary: #FFFFFF;
+    --bg-tertiary: #F1F3F5;
+    --bg-card: #FFFFFF;
+    --bg-hover: #ECEFF1;
+
+    /* ========= Texto ========= */
+
+    --text-primary: #1C1C1C;
+    --text-secondary: #5F6368;
+    --text-muted: #8A8D91;
+    --text-hover: #000;
+
+    /* ========= Verde ========= */
+
+    --primary: #00E676;
+    --primary-hover: #00D168;
+    --primary-dark: #00C853;
+    --primary-light: #5CFF9D;
+
+    /* ========= Bordas ========= */
+
+    --border: #E5E7EB;
+    --border-light: #D8DBDF;
+
+    /* ========= Sombras ========= */
+
+    --shadow: rgba(0,0,0,.08);
+
+    /* ========= Ícones ========= */
+
+    --icon: #555555;
+    --icon-hover: #1C1C1C;
+
+    /* ========= Status ========= */
+
+
+    --circle-green: #00C853;
+    --circle-orange: #FB8C00;
+    --circle-red: #E53935;
+
+}
