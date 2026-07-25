@@ -77,7 +77,7 @@ async function carregarIdioma(lang) {
 
     setTimeout(async () => {
         try {
-            const response = await fetch(`assets/language/${lang}.json`)
+            const response = await fetch(`../assets/language/${lang}.json`)
             const traducoes = await response.json();
 
             traducoesAtuais = traducoes;
