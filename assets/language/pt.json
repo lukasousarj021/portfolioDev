@@ -1,0 +1,82 @@
+{
+  "header": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "aside": {
+    "shortcuts": "Atalhos",
+    "contact": "Contato",
+    "esterEgg": "> Digitel 'help' no terminal"
+  },
+  "home": {
+    "titulo": "// Olá, eu sou",
+    "descricao1": "Desenvolvedor Full Stack focado em criar aplicações [green]modernas, rápidas[/green] e [green]escaláveis[/green].",
+    "button1": "Projetos",
+    "button2": "Sobre"
+  },
+  "about": {
+    "primeiroParagrafo": "Me chamo Lukas, tenho 24 anos e sou estudante de [green]Análise e Desenvolvimento de Sistemas[/green], com foco em desenvolvimento [green]Full Stack.[/green]",
+    "segundoParagrafo": "Tenho experiência no desenvolvimento de aplicações web e mobile utilizando [green]HTML[/green], [green]CSS[/green], [green]JavaScript[/green], [green]Node.js[/green], [green]React[/green], [green]React Native[/green] e [green]MongoDB.[/green]",
+    "terceiroParagrafo": "Busco criar aplicações modernas, responsivas e eficientes, priorizando sempre o desempenho, a experiência do usuário e as melhores práticas de desenvolvimento.",
+    "about.objective": "objetivo",
+    "const": " Criar soluções que impactem pessoas e negócios."
+  },
+  "aboutSection": {
+    "title": "Sobre Mim",
+    "task1": "Desenvolvedor",
+    "task2": "Full Stack",
+    "description": "Meu nome é Lukas, tenho 24 anos e atualmente estou cursando ",
+    "description1": "Atuo como Desenvolvedor Full Stack com conhecimentos em ",
+    "description2": "Tenho interesse em criar aplicações modernas e funcionais, proporcionando uma excelente experiência ao usuário, sempre buscando aprimorar minhas habilidades e aprender novas tecnologias.",
+    "course": "Análise e Desenvolvimento de Sistemas",
+    "focus": "Resolver problemas",
+    "foco": "Foco",
+    "mindset": "Sempre buscando aprender e evoluir",
+    "objective": "Criar soluções que fazem a diferença",
+    "objetivo": "Objetivo",
+    "comment": "código limpo",
+    "comment2": "performance",
+    "comment3": "escalabilidade",
+    "comment4": "impacto",
+    "remote": "Remoto",
+    "data": "Banco de Dados",
+    "others": "Outros",
+    "and": "e"
+  },
+  "terminal": {
+    "welcome": "Bem-vindo ao meu terminal.",
+    "typeHelp": "Digite help para ver os comandos.",
+    "whoami": "Desenvolvedor Full Stack",
+    "skillsTitle": "skills --list",
+    "help": [
+      "comandos disponíveis:",
+      "",
+      "about - abre a seção sobre mim",
+      "projects - abre a seção de projetos",
+      "contact - entre em contato comigo",
+      "github - abre meu perfil no github",
+      "linkedin - abre meu perfil no linkedin",
+      "skills - lista minhas habilidades",
+      "clear - limpa o terminal",
+      ""
+    ],
+    "error": "Comando não encontrado. Digite help para ver os comandos.",
+    "about": "abrindo seção sobre mim",
+    "projects": "abrindo seção de projetos",
+    "clear": "Limpar terminal",
+    "contact": "Entre em contato comigo",
+    "skills": [
+      "",
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "REACT",
+      "REACT NATIVE",
+      "NODE.JS",
+      "MYSQL",
+      "GIT",
+      ""
+    ]
+  }
+}

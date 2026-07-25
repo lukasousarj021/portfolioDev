@@ -3,16 +3,17 @@
 
     /* ========= Background ========= */
 
-    --bg-primary: #0D0F10;
+    --bg-primary: #0a0a0a;
     --bg-secondary: #141617;
     --bg-tertiary: #1A1C1E;
     --bg-card: #111315;
     --bg-hover: #1F2224;
+    --bg-light: #383838;
 
     /* ========= Texto ========= */
 
     --text-primary: #F5F5F5;
-    --text-secondary: #B8B8B8;
+    --text-secondary: #e2e2e2;
     --text-muted: #7C7C7C;
     --text-hover: #000;
 
@@ -20,7 +21,7 @@
 
     --green: #00FF84;
     --green-hover: #00E676;
-    --green-dark: #00C853;
+    --green-dark: #02992a;
     --green-light: #63FFA8;
 
     /* ========= Bordas ========= */
@@ -46,7 +47,7 @@
 }
 
 
-:light {
+.light {
 
     /* ========= Background ========= */
 
@@ -64,15 +65,14 @@
     --text-hover: #000;
 
     /* ========= Verde ========= */
-
-    --primary: #00E676;
-    --primary-hover: #00D168;
-    --primary-dark: #00C853;
-    --primary-light: #5CFF9D;
-
+    
+    --green: #15b640;
+    --green-dark: #02992a;
+    --green-light: #63FFA8;
+    --green-hover: #00E676;
     /* ========= Bordas ========= */
 
-    --border: #E5E7EB;
+    --border: #d3d3d3;
     --border-light: #D8DBDF;
 
     /* ========= Sombras ========= */
@@ -91,4 +91,26 @@
     --circle-orange: #FB8C00;
     --circle-red: #E53935;
 
+}
+
+
+:root {
+    /* ===== Interface ===== */
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "IBM Plex Sans", sans-serif;
+    --font-heading: "Manrope", sans-serif;
+
+    /* ===== Código / VS Code ===== */
+    --font-code: "JetBrains Mono", monospace;
+    --font-editor: "Cascadia Code", monospace;
+    --font-terminal: "Fira Code", monospace;
+
+    /* ===== Hacker / Cyber ===== */
+    --font-hacker: "Share Tech Mono", monospace;
+    --font-cyber: "Space Mono", monospace;
+    --font-futuristic: "Oxanium", sans-serif;
+
+    /* ===== Destaques ===== */
+    --font-logo: "Sora", sans-serif;
+    --font-display: "Orbitron", sans-serif;
 }

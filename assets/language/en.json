@@ -1,0 +1,81 @@
+{
+  "header": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "aside": {
+    "shortcuts": "Shortcuts",
+    "contact": "Contact",
+    "esterEgg": "> Type 'help' in the terminal."
+  },
+  "home": {
+    "titulo": "//Hello, I am",
+    "descricao1": "Full Stack developer focused on creating [green]modern, fast[/green] and [green]scalable[/green] applications.",
+    "button1": "Projects",
+    "button2": "About"
+  },
+  "about": {
+    "primeiroParagrafo": "My name is Lukas, I'm 24 years old and I'm a student of [green]Systems Analysis and Development[/green], focusing on [green]Full Stack[/green] development.",
+    "segundoParagrafo": "I have experience developing web and mobile applications using [green]HTML[/green], [green]CSS[/green], [green]JavaScript[/green], [green]Node.js[/green], [green]React[/green], [green]React Native[/green], and [green]MongoDB.[/green]",
+    "terceiroParagrafo": "I strive to create modern, responsive, and efficient applications, always prioritizing performance, user experience, and best development practices.",
+    "about.objective": "objective",
+    "const": " Creating solutions that impact people and businesses."
+  },
+  "aboutSection": {
+    "title": "About Me",
+    "task1": "Developer",
+    "task2": "Full Stack",
+    "description": "My name is Lukas, I am 24 years old and a student of ",
+    "description1": "I work as a Full Stack Developer, with knowledge of ",
+    "description2": "I am interested in creating modern, functional applications with good user experience, always seeking to evolve my skills and learn new technologies.",
+    "course": "Systems Analysis and Development",
+    "focus": "Solving problems",
+    "foco": "Focus",
+    "mindset": "Always seeking to learn and improve",
+    "objective": "Creating solutions that make a difference.",
+    "objetivo": "Objective",
+    "comment": "clean code",
+    "comment2": "performance",
+    "comment3": "scalability",
+    "comment4": "impact",
+    "remote": "Remote",
+    "data": "Database",
+    "others": "Others",
+    "and": "and"
+  },
+  "terminal": {
+    "welcome": "Welcome to my terminal.",
+    "typeHelp": "Type help to see the available commands.",
+    "whoami": "Full Stack Developer",
+    "skillsTitle": "skills --list",
+    "help": [
+      "Available commands:",
+      "",
+      "whoami      - who I am",
+      "about       - open About section",
+      "projects    - open Projects section",
+      "skills      - list my skills",
+      "contact     - open Contact section",
+      "github      - open my GitHub profile",
+      "linkedin    - open my LinkedIn profile",
+      "clear       - clear the terminal"
+    ],
+    "error": "Command not found. Type help to see the available commands.",
+    "about": "Opening about section",
+    "projects": "Opening projects section",
+    "clear": "Clearing terminal",
+    "contact": "Contacting me",
+    "skills": [
+      "",
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "REACT",
+      "REACT NATIVE",
+      "NODE.JS",
+      "MYSQL",
+      "GIT"
+    ]
+  }
+}
