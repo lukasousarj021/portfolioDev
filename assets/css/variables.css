@@ -23,6 +23,8 @@
     --green-hover: #00E676;
     --green-dark: #02992a;
     --green-light: #63FFA8;
+    
+      --hoverGreen: #616e6877;
 
     /* ========= Bordas ========= */
 
@@ -43,6 +45,9 @@
     --circle-green: #00FF84;
     --circle-orange: #FF9800;
     --circle-red: #FF5252;
+
+     --spanGreen: #00ff66;
+      --cinzaEscuro: #3f3f3f;
 
 }
 

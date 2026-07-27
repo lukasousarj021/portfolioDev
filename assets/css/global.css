@@ -62,7 +62,7 @@
 
 
 .open {
-    display: flex;
+    display: grid;
 }
 
 section {
@@ -70,6 +70,39 @@ section {
 }
 
 
+/* barra inteira */
+::-webkit-scrollbar {
+
+    width: 6px;
+    height: 6px;
+
+}
+
+
+/* fundo da barra */
+::-webkit-scrollbar-track {
+
+    background: #8b8b8b;
+
+}
+
+
+/* o "botão" que arrasta */
+::-webkit-scrollbar-thumb {
+
+    background: var(--cinzaEscuro);
+
+    border-radius: 10px;
+
+}
+
+
+/* quando passa o mouse */
+::-webkit-scrollbar-thumb:hover {
+
+    background: var(--spanGreen);
+
+}
 
 
 /* Tablets grandes */

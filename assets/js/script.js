@@ -74,3 +74,58 @@ menuHamburguer.addEventListener("click", () => {
 
     }
 });
+
+
+
+
+
+
+
+const sections = document.querySelectorAll(
+    ".asideAtalhos, .asideContatos"
+);
+
+
+
+sections.forEach(section => {
+
+    const titulo = section.querySelector(".txtSeparadores");
+    const conteudo = section.querySelector(".content");
+    const icone = section.querySelector(".iconeSeta");
+
+    titulo.addEventListener("click", () => {
+
+        conteudo.classList.toggle("open");
+
+        icone.classList.toggle("bi-chevron-up");
+        icone.classList.toggle("bi-chevron-down");
+
+    });
+
+});
+
+
+
+
+ document.addEventListener("DOMContentLoaded", () => {
+
+    const email = "lukasousa.r.j@gmail.com";
+
+    const emailBtn = document.getElementById("emailBtn");
+
+    console.log(emailBtn); // teste
+
+    emailBtn.addEventListener("click", () => {
+
+        navigator.clipboard.writeText(email)
+            .then(() => {
+                alert("Email copiado!");
+            })
+            .catch(error => {
+                console.log(error);
+                alert("Erro ao copiar.");
+            });
+
+    });
+
+});
