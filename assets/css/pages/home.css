@@ -5,3 +5,163 @@
     top: .5rem;
     padding-top: 4rem;
 }
+
+
+.identifier{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 7rem ;
+    
+    margin: 1.5rem 0;
+    padding: .5rem;
+
+    border-radius: 15px;
+    border: 1px solid var(--border);
+
+    font-size: .9rem;
+
+    color: var(--text-green);
+    background-color: var(--bg-cinza-medio);
+    
+}
+
+
+.title{
+
+  
+
+    font-family: var(--font-code);
+    
+
+
+}
+
+
+.presentation{
+
+    padding-bottom: 1.5rem;
+
+    p{
+
+        color: var(--text-muted);
+        font-size: 1.2rem
+
+    }
+
+    h1{
+
+        font-size: 2.5rem;
+        font-weight: bold;
+
+    }
+}
+
+
+.discription{
+
+    font-size: 1.1rem;
+    font-family: var(--font-editor);
+
+    padding-bottom: 2rem;
+
+
+
+}
+
+
+.constStacks{
+
+   
+    padding: .5rem .5rem .5rem .9rem;
+
+    
+    font-size: 1rem;
+    font-family: var(--font-cyber);
+
+    border-radius: 15px;
+    border: 2px solid var(--border);
+
+    .stack{
+
+        color: #3888f1;
+
+    }
+
+    .stacks{
+
+        color: #cf7608;
+
+    }
+
+}
+
+
+.buttons{
+
+    display: flex;
+    gap: .5rem;
+
+    width: 100%;
+        
+
+    padding-top: 2rem;
+
+}
+
+
+.btnProjects{
+
+    background-color: var(--green);
+    
+   a{
+
+     color: var(--text-hover);
+
+     &:hover{
+        
+          color: var(--green);
+
+        }
+   }
+
+    &:hover{
+
+        background-color: transparent;
+
+        transform: translateY(-10px);
+
+    }
+
+}
+
+
+.btnAbout{
+
+    a{
+
+        color: var(--text-green);
+
+        &:hover{
+
+              color: var(--text-hover);
+
+        }
+    
+    }
+
+
+
+    &:hover{
+
+        background-color: var(--green);
+
+        color: var(--text-hover);
+
+        transform: translateY(-10px);
+
+    }
+
+}

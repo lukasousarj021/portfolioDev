@@ -23,6 +23,8 @@
 
     transition: 1s all  ease-in-out;
 
+    
+
     ul, li, a{
         
         list-style: none;
@@ -33,18 +35,24 @@
 }
 
 
+body{
 
+    background-color: var(--bg-primary);
+
+}
 
  .container {
 
     min-height: calc(100dvh - 6.5rem );
-    width: min(95%, 1500px);
+    width: min(92%, 1500px);
     
     margin-inline: auto;
     margin-top: 1rem;
  
 
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-primary);
+    
+    color: var(--text-primary);
 
 }
 
@@ -79,6 +87,9 @@
 section {
     scroll-margin-top: 90px; /* altura da navbar */
 }
+
+
+
 
 
 /* barra inteira */

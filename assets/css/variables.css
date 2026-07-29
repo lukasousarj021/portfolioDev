@@ -9,6 +9,7 @@
     --bg-card: #111315;
     --bg-hover: #1F2224;
     --bg-light: #383838;
+    --bg-cinza-medio: #1f201f;
 
     /* ========= Texto ========= */
 
@@ -16,10 +17,11 @@
     --text-secondary: #e2e2e2;
     --text-muted: #7C7C7C;
     --text-hover: #000;
+    --text-green: #00FF84;
 
     /* ========= Verde ========= */
 
-    --green: #00FF84;
+    --green: #00ed57;
     --green-hover: #00E676;
     --green-dark: #02992a;
     --green-light: #63FFA8;

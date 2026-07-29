@@ -19,7 +19,7 @@
     justify-content: space-between;
 
     border-bottom: 2px solid var(--border);
-    background: var(--bg-primary);
+    background: var(--bg-secondary);
 
     z-index: 10;
 
@@ -199,7 +199,7 @@
 
     
     position: fixed;
-    top: 45px;
+    top: 43px;
     left: 0;
 
     gap:rem;
@@ -207,13 +207,16 @@
     width: 100%;
     height: 2.5rem;
 
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
 
     z-index: 5;
 
    transition:  1s ease-in-out;
 
- z-index: 1;
+    z-index: 1;
+
+    border-bottom: 2px solid var(--border);
+
 }
 
 .navbar-menu{
