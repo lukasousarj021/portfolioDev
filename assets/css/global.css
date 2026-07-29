@@ -4,6 +4,7 @@
 @import url(/assets/css/components/buttons.css);
 @import url(/assets/css/components/terminal.css);
 @import url(/assets/css/components/footer.css);
+@import url(/assets/css/components/readmeModal.css);
     /* PAGES */
 @import url(/assets/css/pages/home.css);
 @import url(/assets/css/pages/about.css);
@@ -65,6 +66,16 @@
     display: grid;
 }
 
+
+.openReadme{
+
+    
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
 section {
     scroll-margin-top: 90px; /* altura da navbar */
 }
@@ -110,7 +121,8 @@ section {
 
     .container{
 
-        padding-left: 50px;
+        margin-left: 60px;
+        width: calc(100% - 80px);
 
     }
 

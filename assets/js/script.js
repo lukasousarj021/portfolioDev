@@ -1,14 +1,20 @@
+function fecharAoClicarFora(botao, elemento, classe, icone, iconeAberto, iconeFechado) {
 
-function fecharAoClicarFora(botao, elemento, classe) {
     document.addEventListener("click", (e) => {
+
         if (
-            !elemento.contains(e.target) &&
-            !botao.contains(e.target)
+            !botao.contains(e.target) &&
+            !elemento.contains(e.target)
         ) {
             elemento.classList.remove(classe);
+
+            icone.classList.replace(iconeAberto, iconeFechado);
         }
+
     });
+
 }
+
 
 
 
@@ -75,9 +81,17 @@ menuHamburguer.addEventListener("click", () => {
     }
 });
 
+const linksMenuAside = document.querySelectorAll(".atalhos");
+
+linksMenuAside.forEach(link => {
+    link.addEventListener("click", () => {
+        menuAside.classList.remove("open");
+        menuHamburguer.classList.replace("bi-x", "bi-list");
+    });
+});
 
 
-
+    fecharAoClicarFora(menuHamburguer, menuAside, "open", menuHamburguer , "bi-x", "bi-list")
 
 
 
@@ -127,5 +141,21 @@ sections.forEach(section => {
             });
 
     });
+
+});
+
+
+
+const modalReadme = document.getElementById("modalReadme");
+
+document.getElementById("btnAbrirReadme").addEventListener("click",()=>{
+
+    modalReadme.classList.add("openReadme");
+
+});
+
+document.getElementById("btnCloseReadme").addEventListener("click",()=>{
+
+    modalReadme.classList.remove("openReadme");
 
 });

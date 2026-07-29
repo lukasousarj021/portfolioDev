@@ -1,0 +1,206 @@
+.modal-readme{
+
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+
+    background:#0d1117;
+
+    color:#c9d1d9;
+
+    z-index:9999;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-header{
+
+    height:70px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 2rem;
+
+    background:#161b22;
+
+    border-bottom:1px solid #30363d;
+}
+
+.readme-title{
+
+    display:flex;
+    align-items:center;
+    gap:1rem;
+
+    color:#58a6ff;
+
+    font-size:1.1rem;
+    font-weight:600;
+}
+
+.modal-header button{
+
+    width:42px;
+    height:42px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:transparent;
+
+    color:#c9d1d9;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.modal-header button:hover{
+
+    background:#30363d;
+}
+
+.modal-content{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    padding:3rem;
+
+    max-width:1200px;
+
+    width:100%;
+
+    margin:auto;
+
+    line-height:1.8;
+}
+
+.modal-content h1{
+
+    font-size:3rem;
+
+    color:#58a6ff;
+
+    margin-bottom:.5rem;
+}
+
+.modal-content h2{
+
+    margin-top:3rem;
+
+    color:#3fb950;
+
+    border-bottom:1px solid #30363d;
+
+    padding-bottom:.5rem;
+}
+
+.description{
+
+    font-size:1.05rem;
+
+    color:#8b949e;
+}
+
+.badges{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:.7rem;
+
+    margin:2rem 0;
+}
+
+.badges span{
+
+    background:#21262d;
+
+    border:1px solid #30363d;
+
+    padding:.45rem .9rem;
+
+    border-radius:50px;
+
+    font-size:.85rem;
+}
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+
+    gap:1.5rem;
+
+    margin-top:2rem;
+}
+
+.card{
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:14px;
+
+    padding:1.5rem;
+
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#58a6ff;
+}
+
+.card i{
+
+    font-size:2rem;
+
+    color:#58a6ff;
+
+    margin-bottom:1rem;
+}
+
+.card h3{
+
+    margin-bottom:.5rem;
+}
+
+blockquote{
+
+    border-left:4px solid #58a6ff;
+
+    padding-left:1rem;
+
+    color:#8b949e;
+
+    margin-top:1rem;
+}
+
+.modal-content::-webkit-scrollbar{
+
+    width:10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb{
+
+    background:#30363d;
+
+    border-radius:20px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover{
+
+    background:#58a6ff;
+}

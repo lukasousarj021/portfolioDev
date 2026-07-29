@@ -49,10 +49,10 @@
 
                         <li class="navbar-item">
 
-                            <a href="#home" class="navbar-link" > _Home</a>
+                            <a href="#home" class="navbar-link"> _Home</a>
                             <a href="#about" class="navbar-link" data-i18n="header.about"> _About</a>
-                            <a href="#projects" class="navbar-link"  data-i18n="header.projects"> _Projects</a>
-                            <a href="#contact" class="navbar-link"  data-i18n="header.contact"> _Contact</a>
+                            <a href="#projects" class="navbar-link" data-i18n="header.projects"> _Projects</a>
+                            <a href="#contact" class="navbar-link" data-i18n="header.contact"> _Contact</a>
 
                         </li>
 
@@ -70,12 +70,14 @@
 
                     <div class="navbar-language">
 
-                        <button class="navbar-language-btn" id="language-btn"> <span id="flag" class="activeIdioma fi fi-br"></span><i id="icon-language" class="fa-solid fa-angle-down iconSeta"></i></button>
+                        <button class="navbar-language-btn" id="language-btn"> <span id="flag"
+                                class="activeIdioma fi fi-br"></span><i id="icon-language"
+                                class="fa-solid fa-angle-up iconSeta"></i></button>
 
                         <div class="list-language" id="listaIdiomas">
 
                             <ul class="optionIdiomas" id="optionIdiomas">
-                                <li class="selecionado"  data-lang="Pt"><span class="fi fi-br"></span></li>
+                                <li class="selecionado" data-lang="Pt"><span class="fi fi-br"></span></li>
                                 <li class="selecionado" data-lang="En"><span class="fi fi-us"></span></li>
                                 <li class="selecionado" data-lang="Es"><span class="fi fi-es"></span></li>
                             </ul>
@@ -93,13 +95,20 @@
 
                     <ul class="navbar-menu">
 
-                        <li><a href="#home" class="item navbar-link"><span><i class="bi bi-house item"></i></span>Home</a></li>
-                        
-                        <li><a href="#about" class="item navbar-link"><span><i class="bi bi-person item"></i></span><span data-i18n="header.about">About</span></a></li>
-                        
-                        <li><a href="#projects" class="item navbar-link"><span><i class="bi bi-briefcase item"></i></span><span data-i18n="header.projects">Projects</span></a></li>
-                        
-                        <li><a href="#contact" class="item navbar-link"><span><i class="bi bi-envelope item"></i></span><span data-i18n="header.contact">Contact</span></a></li>
+                        <li><a href="#home" class="item navbar-link"><span><i
+                                        class="bi bi-house item"></i></span>Home</a></li>
+
+                        <li><a href="#about" class="item navbar-link"><span><i
+                                        class="bi bi-person item"></i></span><span
+                                    data-i18n="header.about">About</span></a></li>
+
+                        <li><a href="#projects" class="item navbar-link"><span><i
+                                        class="bi bi-briefcase item"></i></span><span
+                                    data-i18n="header.projects">Projects</span></a></li>
+
+                        <li><a href="#contact" class="item navbar-link"><span><i
+                                        class="bi bi-envelope item"></i></span><span
+                                    data-i18n="header.contact">Contact</span></a></li>
 
                     </ul>
 
@@ -114,7 +123,7 @@
 
     <aside>
 
-        
+
         <div class="menuIcones">
 
 
@@ -160,7 +169,7 @@
             <div class="asideExplorer">
 
                 <p class="txtSeparadores">Explorer <span> <i class="bi bi-chevron-up"></i></span></p>
-                
+
             </div>
 
             <div class="asidePortfolio">
@@ -169,43 +178,63 @@
 
                 <div class="contentPortfolio">
 
-                    <p class="arquivos"> <span><i class="bi bi-folder"></i></span> Assets <span><i class="fa fa-circle fa-2xs"></i></span></p>
-                    <p class="arquivos"> <span><i class="fa-brands fa-html5" style="color: #E34F26;"></i></span> index.html <span><i class="fa fa-circle fa-2xs"></i></span></p>
-                    <p class="arquivos"> <span><i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i></span> style.css <span><i class="fa fa-circle fa-2xs"></i></span></p>
-                    <p class="arquivos"> <span><i class="fa-brands fa-js" style="color: #F7DF1E;"></i></span> script.js <span><i class="fa fa-circle fa-2xs"></i></span></p>
-                      <p class="arquivos readme"> <span><i class="fa-solid fa-circle-exclamation fa-fade" style="color: #075b97;"></i></span> README.md <span><i class="fa fa-circle fa-2xs"></i></span></p>
-                    
-                
+                    <p class="arquivos"> <span><i class="bi bi-folder"></i></span> Assets <span><i
+                                class="fa fa-circle fa-2xs"></i></span></p>
+                    <p class="arquivos"> <span><i class="fa-brands fa-html5" style="color: #E34F26;"></i></span>
+                        index.html <span><i class="fa fa-circle fa-2xs"></i></span></p>
+                    <p class="arquivos"> <span><i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i></span>
+                        style.css <span><i class="fa fa-circle fa-2xs"></i></span></p>
+                    <p class="arquivos"> <span><i class="fa-brands fa-js" style="color: #F7DF1E;"></i></span> script.js
+                        <span><i class="fa fa-circle fa-2xs"></i></span>
+                    </p>
+                    <p id="btnAbrirReadme" class="arquivos readme"> <span><i
+                                class="fa-solid fa-circle-exclamation fa-fade" style="color: #075b97;"></i></span>
+                        README.md <span><i class="fa fa-circle fa-2xs"></i></span></p>
+
+
                 </div>
 
             </div>
-        
+
             <div class="asideAtalhos">
 
                 <p class="txtSeparadores">Atalhos <span> <i class="bi bi-chevron-up iconeSeta"></i></span></p>
 
                 <div class="content">
 
-                    <a href="#home"><p class="atalhos"><span><i class="bi bi-house"></i></span> Home</p></a>
-                    <a href="#about"><p class="atalhos"><span><i class="bi bi-person-circle"></i></span> Sobre</p></a>
-                    <a href="#projects"><p class="atalhos"><span><i class="bi bi-folder"></i></span> Projetos</p></a>
-                    <a href="#contact"></a><p class="atalhos"><span><i class="bi bi-envelope"></i></span> Contato</p></a>
+                    <a href="#home">
+                        <p class="atalhos"><span><i class="bi bi-house"></i></span> Home</p>
+                    </a>
+                    <a href="#about">
+                        <p class="atalhos"><span><i class="bi bi-person-circle"></i></span> Sobre</p>
+                    </a>
+                    <a href="#projects">
+                        <p class="atalhos"><span><i class="bi bi-folder"></i></span> Projetos</p>
+                    </a>
+                    <a href="#contact"></a>
+                    <p class="atalhos"><span><i class="bi bi-envelope"></i></span> Contato</p></a>
 
 
                 </div>
 
             </div>
-        
+
             <div class="asideContatos">
 
                 <p class="txtSeparadores">Contatos <span> <i class="bi bi-chevron-up iconeSeta"></i></span></p>
 
-                 <div class="content">
+                <div class="content">
 
-                   <a href="https://github.com/lukasousarj021" target="_blank"><p class="atalhos"><span><i class="bi bi-house"></i></span> Github</p></a>
-                    <a href="https://www.linkedin.com/in/lukas-santos-208959269/" target="_blank"><p class="atalhos"><span><i class="bi bi-person-circle"></i></span> Linkedin</p></a>
-                    <a href="#" id="mailBtn" ><p class="atalhos"><span><i class="bi bi-folder"></i></span> Email</p></a>
-                    
+                    <a href="https://github.com/lukasousarj021" target="_blank">
+                        <p class="atalhos"><span><i class="bi bi-house"></i></span> Github</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/lukas-santos-208959269/" target="_blank">
+                        <p class="atalhos"><span><i class="bi bi-person-circle"></i></span> Linkedin</p>
+                    </a>
+                    <a href="#" id="emailBtn">
+                        <p class="atalhos"><span><i class="bi bi-folder"></i></span> Email</p>
+                    </a>
+
 
 
                 </div>
@@ -217,17 +246,208 @@
                 <div class="help">
 
                     <p>Digite 'help' no terminal </p>
-                    <span><i class="fa fa-circle fa-2xs"></i><i class="fa fa-circle fa-2xs"></i><i class="fa fa-circle fa-2xs"></i></span>
+                    <span><i class="fa fa-circle fa-2xs"></i><i class="fa fa-circle fa-2xs"></i><i
+                            class="fa fa-circle fa-2xs"></i></span>
 
                 </div>
 
             </div>
-        
+
         </div>
 
     </aside>
 
-    
+    <div class="modal-readme" id="modalReadme">
+
+        <div class="modal-header">
+
+            <div class="readme-title">
+                <i class="fa-brands fa-github"></i>
+                <span>README.md</span>
+            </div>
+
+            <button id="btnCloseReadme" aria-label="Fechar README">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+        <div class="modal-content">
+
+            <header class="hero">
+
+                <h1>👋 Olá, eu sou Lukas</h1>
+
+                <p class="description">
+                    Desenvolvedor Front-End apaixonado por criar interfaces modernas,
+                    responsivas e intuitivas utilizando tecnologias nativas da Web.
+                </p>
+
+                <div class="badges">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Responsive</span>
+                    <span>Dark Mode</span>
+                    <span>i18n</span>
+                </div>
+
+            </header>
+
+            <section>
+
+                <h2>📖 Sobre o Projeto</h2>
+
+                <p>
+                    Este portfólio foi desenvolvido com foco em performance,
+                    acessibilidade, organização do código e uma ótima experiência
+                    para o usuário.
+                </p>
+
+                <p>
+                    Todo o projeto foi construído utilizando HTML, CSS e JavaScript
+                    puro, sem frameworks, visando demonstrar domínio dos fundamentos
+                    do desenvolvimento Front-End.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2>✨ Funcionalidades</h2>
+
+                <div class="grid">
+
+                    <article class="card">
+                        <i class="fa-solid fa-moon"></i>
+
+                        <h3>Tema</h3>
+
+                        <p>
+                            Alternância entre modo claro e escuro.
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+                        <i class="fa-solid fa-language"></i>
+
+                        <h3>Idiomas</h3>
+
+                        <p>
+                            Português, Inglês e Espanhol.
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+                        <i class="fa-solid fa-mobile-screen"></i>
+
+                        <h3>Responsivo</h3>
+
+                        <p>
+                            Compatível com desktop, tablet e smartphone.
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+                        <i class="fa-solid fa-bars"></i>
+
+                        <h3>Sidebar</h3>
+
+                        <p>
+                            Navegação dinâmica e otimizada.
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+                        <i class="fa-solid fa-code"></i>
+
+                        <h3>Código</h3>
+
+                        <p>
+                            Estrutura modular e reutilizável.
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+                        <i class="fa-solid fa-palette"></i>
+
+                        <h3>Design</h3>
+
+                        <p>
+                            Interface moderna inspirada no GitHub.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section>
+
+                <h2>🛠 Tecnologias</h2>
+
+                <pre><code>
+HTML5
+CSS3
+JavaScript (ES6+)
+Bootstrap Icons
+Font Awesome
+Flag Icons
+            </code></pre>
+
+            </section>
+
+            <section>
+
+                <h2>📂 Estrutura do Projeto</h2>
+
+                <pre><code>
+📦 portfolio
+├── assets
+│   ├── css
+│   ├── js
+│   ├── img
+│   └── languages
+├── index.html
+└── README.md
+            </code></pre>
+
+            </section>
+
+            <section>
+
+                <h2>🚀 Objetivos</h2>
+
+                <ul>
+                    <li>Criar uma interface moderna.</li>
+                    <li>Aplicar boas práticas de HTML, CSS e JavaScript.</li>
+                    <li>Desenvolver um projeto totalmente responsivo.</li>
+                    <li>Organizar o código de forma escalável.</li>
+                    <li>Demonstrar minhas habilidades como desenvolvedor Front-End.</li>
+                </ul>
+
+            </section>
+
+            <section>
+
+                <h2>📬 Contato</h2>
+
+                <p>
+                    Caso queira conhecer mais sobre meu trabalho ou entrar em contato,
+                    utilize os links disponíveis no próprio portfólio.
+                </p>
+
+            </section>
+
+        </div>
+
+    </div>
 
 
     <main>

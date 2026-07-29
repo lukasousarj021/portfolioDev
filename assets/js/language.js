@@ -1,15 +1,34 @@
 
-const btnLanguage = document.querySelector(".navbar-language-btn")
+const btnLanguage = document.querySelector(".navbar-language-btn i")
 const listLanguage = document.querySelector(".list-language")
+const iconLanguage = document.getElementById("icon-language");
 
 btnLanguage.addEventListener("click", () => {
-
     listLanguage.classList.toggle("open");
 
+    if (listLanguage.classList.contains("open")) {
+        // Menu aberto
+        iconLanguage.classList.replace("fa-angle-up", "fa-angle-down");
+    } else {
+        // Menu fechado
+        iconLanguage.classList.replace("fa-angle-down", "fa-angle-up");
+    }
+});
 
-})
+fecharAoClicarFora(btnLanguage, listLanguage, "open", iconLanguage , "fa-angle-down", "fa-angle-up");
 
-fecharAoClicarFora(btnLanguage, listLanguage, "open");
+const linksMenuLanguage = document.querySelectorAll(".selecionado");
+
+linksMenuLanguage.forEach(link => {
+    link.addEventListener("click", () => {
+        listLanguage.classList.remove("open");
+        iconLanguage.classList.replace("fa-angle-down", "fa-angle-up");
+    });
+});
+
+
+
+
 
 const flag = document.getElementById("flag");
 const idiomas = document.querySelectorAll(".optionIdiomas li");
