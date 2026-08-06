@@ -132,6 +132,11 @@ section {
 
     .container{
 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;    
+        
         margin-left: 60px;
         width: calc(100% - 80px);
 
