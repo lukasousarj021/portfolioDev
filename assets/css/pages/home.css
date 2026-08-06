@@ -3,7 +3,7 @@
     
     position: relative;
     top: .5rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 
 
@@ -383,4 +383,12 @@
 
     }
 
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+       
+    }
 }
