@@ -29,6 +29,18 @@
 }
 
 
+.contents{
+
+   width: 100%;
+}
+
+.terminal{
+
+    width: 100%;
+
+
+}
+
 .title{
 
   
@@ -369,19 +381,15 @@
 /* Tablets grandes */
 @media (min-width: 1000px) {
 
-    .contents{
+  .contents{
 
-        width: 40%;
-        
+    width: 40%;
+  }
 
-    }
+  .terminal{
 
-
-    .terminal{
-
-        width: 40%; 
-
-    }
+    width: 40%;
+  }
 
 }
 

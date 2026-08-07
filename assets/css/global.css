@@ -44,7 +44,7 @@ body{
  .container {
 
     min-height: calc(100dvh - 6.5rem );
-    width: min(92%, 1500px);
+    width: min(92%, 1000px);
     
     margin-inline: auto;
     margin-top: 1rem;
