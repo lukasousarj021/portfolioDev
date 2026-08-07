@@ -310,6 +310,7 @@
 
     .help-terminal{
         font-size: .85rem;
+        line-height: 3.5;
     }
 
 }
