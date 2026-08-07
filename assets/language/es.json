@@ -11,9 +11,9 @@
   },
   "home": {
     "titulo": "// Hola, soy",
-    "descricao1": "Desarrollador Full Stack enfocado en crear aplicaciones [green]modernas y rápidas[/green] y [green]escalables[/green].",
-    "button1": "Proyectos",
-    "button2": "Acerca"
+    "descricao1": "Desarrollador Full Stack enfocado en crear aplicaciones [green]modernas, rápidas[/green] y [green]escalables[/green].",
+    "button1": "Ver proyectos",
+    "button2": "Acerca de mí"
   },
   "about": {
     "primeiroParagrafo": "Me llamo Lukas, tengo 24 años y estudio [green]Análisis y Desarrollo de Sistemas[/green], con especialización en desarrollo [green]Full Stack.[/green]",

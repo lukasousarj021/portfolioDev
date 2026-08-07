@@ -12,8 +12,8 @@
   "home": {
     "titulo": "//Hello, I am",
     "descricao1": "Full Stack developer focused on creating [green]modern, fast[/green] and [green]scalable[/green] applications.",
-    "button1": "Projects",
-    "button2": "About"
+    "button1": "View Projects",
+    "button2": "About Me"
   },
   "about": {
     "primeiroParagrafo": "My name is Lukas, I'm 24 years old and I'm a student of [green]Systems Analysis and Development[/green], focusing on [green]Full Stack[/green] development.",

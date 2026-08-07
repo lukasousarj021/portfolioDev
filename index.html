@@ -198,7 +198,7 @@
 
             <div class="asideAtalhos">
 
-                <p class="txtSeparadores">Atalhos <span> <i class="bi bi-chevron-up iconeSeta"></i></span></p>
+                <p class="txtSeparadores"><span data-i18n="aside.shortcuts"> Atalhos </span><span> <i class="bi bi-chevron-up iconeSeta"></i></span></p>
 
                 <div class="content">
 
@@ -206,14 +206,15 @@
                         <p class="atalhos"><span><i class="bi bi-house"></i></span> Home</p>
                     </a>
                     <a href="#about">
-                        <p class="atalhos"><span><i class="bi bi-person-circle"></i></span> Sobre</p>
+                        <p class="atalhos"><span><i class="bi bi-person-circle"></i></span> <span data-i18n="header.about">Sobre</span></p>
                     </a>
                     <a href="#projects">
-                        <p class="atalhos"><span><i class="bi bi-folder"></i></span> Projetos</p>
+                        <p class="atalhos"><span><i class="bi bi-folder"></i></span> <span data-i18n="header.projects">Projetos</span></p>
                     </a>
-                    <a href="#contact"></a>
-                    <p class="atalhos"><span><i class="bi bi-envelope"></i></span> Contato</p></a>
-
+                    <a href="#contact">
+                        <p class="atalhos"><span><i class="bi bi-envelope"></i></span> <span data-i18n="header.contact">Contato</span></p>
+                    </a>
+                  
 
                 </div>
 
@@ -245,7 +246,7 @@
 
                 <div class="help">
 
-                    <p>Digite 'help' no terminal </p>
+                    <p data-i18n="aside.esterEgg">Digite 'help' no terminal </p>
                     <span><i class="fa fa-circle fa-2xs"></i><i class="fa fa-circle fa-2xs"></i><i
                             class="fa fa-circle fa-2xs"></i></span>
 
@@ -470,14 +471,14 @@ Flag Icons
 
                         <div class="presentation">
 
-                            <p>Ola, eu sou</p>
+                            <p data-i18n="home.titulo">Ola, eu sou</p>
                             <h1>Lukas <span class="green">Dev_</span></h1>
 
                         </div>
 
                         <div class="discription">
 
-                            <p>Desenvolvedor Full Stack focado em criar aplicações <span class="green">modernas,
+                            <p data-i18n="home.descricao1">Desenvolvedor Full Stack focado em criar aplicações <span class="green">modernas,
                                     rápidas</span> e <span class="green">escaláveis.</span></p>
 
 
@@ -494,10 +495,10 @@ Flag Icons
 
                     <div class="buttons">
 
-                        <button class="btn btnProjects"><a href="#projects"> Ver Projetos <i
+                        <button class="btn btnProjects"><a href="#projects"> <span data-i18n="home.button1">Ver Projetos</span> <i
                                     class="bi bi-arrow-right"></i></a></button>
-
-                        <button class=" btn btnAbout"> <a href="#about"> Sobre mim <i
+                            
+                        <button class=" btn btnAbout"> <a href="#about"> <span data-i18n="home.button2">Sobre mim</span> <i
                                     class="bi bi-person"></i></a></button>
 
 
@@ -513,11 +514,10 @@ Flag Icons
                     </div>
 
                 </div>
-
                 <div class="terminal">
 
                     <!-- Barra Superior -->
-                    <header class="terminal-header">
+                    <div class="terminal-header">
 
                         <div class="terminal-buttons">
                             <i class="bi bi-circle-fill" style="color: #ff5f57;"></i>
@@ -537,10 +537,10 @@ Flag Icons
                             <i class="bi bi-x"></i>
                         </div>
 
-                    </header>
+                    </div>
 
                     <!-- Corpo -->
-                    <main class="terminal-body" id="terminal-output">
+                    <div class="terminal-body" id="terminal-output">
 
                         <div class="line">
                             <span class="user">lukas@portfolio</span>
@@ -553,10 +553,10 @@ Flag Icons
                             Type <span class="highlight">help</span> to list all commands.
                         </div>
 
-                    </main>
+                    </div>
 
                     <!-- Input -->
-                    <footer class="terminal-footer">
+                    <div class="terminal-footer">
 
                         <span class="user">
                             lukas@portfolio
@@ -572,12 +572,11 @@ Flag Icons
 
 
 
-                    </footer>
+                    </div>
 
 
 
                 </div>
-
             </div>
 
         </section>

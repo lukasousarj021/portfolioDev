@@ -3,17 +3,21 @@
 
 .terminal{
 
-    width: 100%;
+    width: min(100%, 850px);
 
     height: 30rem;
-    min-height: 70%;
-
     margin-top: 2rem;
 
+    display: flex;
+    flex-direction: column;
 
-    display:flex;
-    flex-direction:column;
+    border-radius: 14px;
 
+    background: var(--bg-terminal);
+    border: 3px solid var(--border);
+
+    
+    overflow: hidden;
 
 
     border-radius:14px;
@@ -280,12 +284,15 @@
 
 
 
-@media (min-width: 1024px){
+@media (max-width:768px){
 
     .terminal{
 
-        width: 40%;
-        
+        width:100%;
+
+        height: 35rem;
+
+        margin-top:1.5rem;
 
     }
 

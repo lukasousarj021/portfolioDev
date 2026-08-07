@@ -4,6 +4,8 @@
     position: relative;
     top: .5rem;
     padding-top: 4rem;
+
+    min-height: calc(150svh - 6.5rem);
 }
 
 
@@ -130,7 +132,7 @@
 
 .btnProjects {
     
-    width: 100%;
+    width: 80%;
     height: 100%;
 
     border-radius: 10px;
@@ -153,7 +155,7 @@
 
 .btnAbout{
 
-    width: 100%;
+    width: 80%;
     height: 100%;
 
     border-radius: 10px;
@@ -398,8 +400,6 @@
 @media (max-width: 768px) {
     .container {
         width: 100%;
-        margin-top: 0;
-      
-        box-sizing: border-box;
+       
     }
 }
