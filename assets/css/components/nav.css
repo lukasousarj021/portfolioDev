@@ -217,6 +217,8 @@
 
     border-bottom: 2px solid var(--border);
 
+    font-size: 1.25rem;
+
 }
 
 .navbar-menu{
@@ -233,7 +235,7 @@
         padding-right: .3rem;
 
         color: var(--text-secondary);
-        font-size:  clamp(.89rem, 1vw, 1rem);
+        font-size:  clamp(.79rem, 1vw, 1rem);
 
         font-family: var(--font-cyber);
 
