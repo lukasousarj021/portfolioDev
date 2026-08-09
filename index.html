@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -232,7 +233,7 @@
                     <a href="https://www.linkedin.com/in/lukas-santos-208959269/" target="_blank">
                         <p class="atalhos"><span><i class="bi bi-person-circle"></i></span> Linkedin</p>
                     </a>
-                    <a href="#" id="emailBtn">
+                    <a href="#" class="emailBtn">
                         <p class="atalhos"><span><i class="bi bi-folder"></i></span> Email</p>
                     </a>
 
@@ -506,10 +507,18 @@ Flag Icons
 
                     <div class="redes">
 
-                        <i class="bi bi-linkedin iconesRedes linkedin"></i>
-                        <i class="bi bi-github iconesRedes github"></i>
-                        <i class="bi bi-envelope-fill iconesRedes email"></i>
-                        <i class="bi bi-file-earmark-arrow-downbi bi-file-earmark-arrow-down iconesRedes curriculo"></i>
+                        <a href="https://www.linkedin.com/in/lukas-santos-208959269/?skipRedirect=true" target="_blank">
+                            <i class="bi bi-linkedin iconesRedes linkedin"></i>
+                        </a>
+                        <a href="https://github.com/lukasousarj021" target="_blank">
+                            <i class="bi bi-github iconesRedes github"></i>
+                        </a>
+                        <a href="#" class="emailBtn">
+                            <i class="bi bi-envelope-fill iconesRedes email"></i>
+                        </a>
+                        <a href="curriculo.pdf" target="_blank">
+                            <i class="bi bi-file-earmark-arrow-down iconesRedes curriculo"></i>
+                        </a>
 
                     </div>
 
@@ -599,19 +608,112 @@ Flag Icons
 
                     <div class="title">
 
-
+                        <p>Desenvolvedor</p>
+                        <p class="subtitle">Full Stack</p>
 
 
 
                     </div>
 
+                    <div class="discription">
+
+                        <p data-i18n="about.primeiroParagrafo"> Meu nome é Lukas, tenho 24 anos e sou estudante de <span class="green">Analise e Desenvolvimento de Sistemas, com foco em Desenvolvimento <span class="green">Full Stack</span></span></p>
+                        
+                        <p data-i18n="about.segundoParagrafo">Eu trabalho como Desenvolvedor Full Stack, com conhecimento em <span class="green"> HTML, CSS, JavaScript, React, React Native, Node.js, Git, GitHub</span> e <span class="green">Banco de Dados.</span></p>
+
+                        <p data-i18n="about.terceiroParagrafo">Tenho interesse em criar aplicações modernas e funcionais, com uma boa experiência para o usuário, sempre buscando evoluir minhas habilidades e aprender novas tecnologias.</p>
+
+                    </div>
+
+                    <div class="infos">
+
+    
+                        <p><i class="fa-solid fa-map-marker-alt"></i> RJ, Brasil</p>
+                        <p class="emailBtn emailInfos"><i class="fa-solid fa-envelope"></i> lukasousa.r.j@gmail.com</p>
+
+                    </div>
+
+                    <div class="infosCard">
+
+                        <div class="title-card">
+
+                            <p>TOOLS & TECHNOLOGIES</p>
+
+                        </div>
+
+                        <div class="icons-card">
+
+                            <i class="fa-brands fa-html5 html" style="color: #E34F26;"></i>
+                            <i class="fa-brands fa-css3-alt css" style="color: #1572B6;"></i>
+                            <i class="fa-brands fa-js js" style="color: #F7DF1E;"></i>
+                            <i class="fa-brands fa-react react" style="color: #61DAFB;"></i>
+                            <i class="fa-brands fa-node-js node" style="color: #339933;"></i>
+                            <i class="devicon-postgresql-plain postgres" style="color: #2ba4eb;"></i>  
+                            <i class="devicon-mongodb-plain mongo" style="color: #4DB33D;"></i>
+                            <i class="fa-brands fa-github github2" style="color: #dbdbdb;"></i>
+                            <i class="fa-brands fa-git-alt git2" style="color: #F05032;"></i>
+                            <i class="devicon-docker-plain docker" style="color: #00618A;"  ></i>   
+                        </div>
+
+                    </div>
+
+                    
+
                 </div>
 
-                <div class="">
+                <div class="aboutMe">
 
+                                 <div class="aboutMeJs">
+
+                        <section class="aboutCode">
+
+                            <div class="codeWindow">
+
+                                <div class="codeHeader">
+                                    <span class="fileName">about.me.js</span>
+
+                                    <div class="headerIcons">
+                                        <i class="bi bi-code-slash"></i>
+                                        <i class="bi bi-plus-lg"></i>
+                                    </div>
+                                </div>
+
+                                <pre class="codeContent"><code class="teste">
+<span class="lineNumber">1</span>  <span class="keyword">const</span> <span class="variable">Lukas</span> = {
+<span class="lineNumber">2</span>      role: <span class="string">"Full Stack Developer"</span>,
+<span class="lineNumber">3</span>
+<span class="lineNumber">4</span>      age: <span class="number">24</span>,
+<span class="lineNumber">5</span>      location: <span class="string">"Rio de Janeiro, Brasil"</span>,
+<span class="lineNumber">6</span>      status: <span class="string">"Available for new projects"</span>,
+<span class="lineNumber">7</span>
+<span class="lineNumber">8</span>      focus: [
+<span class="lineNumber">9</span>          <span class="string">"Clean Code"</span>,
+<span class="lineNumber">10</span>         <span class="string">"Performance"</span>,
+<span class="lineNumber">11</span>         <span class="string">"Scalability"</span>,
+<span class="lineNumber">12</span>         <span class="string">"Impact"</span>
+<span class="lineNumber">13</span>     ],
+<span class="lineNumber">14</span>
+<span class="lineNumber">15</span>     mindset: {
+<span class="lineNumber">16</span>         alwaysLearning: <span class="boolean">true</span>,
+<span class="lineNumber">17</span>         problemSolver: <span class="boolean">true</span>,
+<span class="lineNumber">18</span>         detailOriented: <span class="boolean">true</span>
+<span class="lineNumber">19</span>     }
+<span class="lineNumber">20</span> }
+
+<span class="comment">// building solutions that make a difference</span>
+        </code></pre>
+
+                            </div>
+
+                        </section>
+
+
+
+                    </div>
 
 
                 </div>
+
 
             </div>
 
@@ -642,12 +744,11 @@ Flag Icons
 
                 </div>
 
-                <div class="">
-
+                <div>
 
 
                 </div>
-
+            
             </div>
 
 

@@ -14,7 +14,7 @@
     border-radius: 14px;
 
     background: var(--bg-terminal);
-    border: 3px solid var(--border);
+    border: 1px solid var(--border);
 
     
     overflow: hidden;
@@ -27,8 +27,8 @@
     border: 3px solid var(--border);
 
     box-shadow:
-        0 20px 60px rgba(0,0,0,.45),
-        0 0 30px rgba(0,0,0,.15);
+        0 10px 10px rgba(0,0,0,.45),
+        0 0 10px rgba(0,0,0,.15);
 
     animation:open .5s ease;
 
@@ -150,13 +150,13 @@
 
 .terminal-body::-webkit-scrollbar{
 
-    width:8px;
+    width:5px;
 
 }
 
 .terminal-body::-webkit-scrollbar-thumb{
 
-    background:#30363d;
+    background: var(--scrool-terminal);
 
     border-radius:20px;
 

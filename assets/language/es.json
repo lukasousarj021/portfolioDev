@@ -17,8 +17,8 @@
   },
   "about": {
     "primeiroParagrafo": "Me llamo Lukas, tengo 24 años y estudio [green]Análisis y Desarrollo de Sistemas[/green], con especialización en desarrollo [green]Full Stack.[/green]",
-    "segundoParagrafo": "Tengo experiencia desarrollando aplicaciones web y móviles con [green]HTML[/green], [green]CSS[/green], [green]JavaScript[/green], [green]Node.js[/green], [green]React[/green], [green]React Native[/green] y [green]MongoDB.[/green]",
-    "terceiroParagrafo": "Me esfuerzo por crear aplicaciones modernas, responsivas y eficientes, priorizando siempre el rendimiento, la experiencia del usuario y las mejores prácticas de desarrollo.",
+    "segundoParagrafo": "Trabajo como desarrollador Full Stack, con conocimientos en [green]HTML[/green], [green]CSS[/green], [green]JavaScript[/green], [green]Node.js[/green], [green]React[/green], [green]React Native[/green] y [green]bases de datos.[/green]",
+    "terceiroParagrafo": "Me interesa crear aplicaciones modernas y funcionales con una buena experiencia de usuario, y siempre busco mejorar mis habilidades y aprender nuevas tecnologías.",
     "about.objective": "objectivo",
     "const": "Crear soluciones que impacten a las personas y a las empresas."
   },

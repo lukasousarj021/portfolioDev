@@ -125,6 +125,12 @@ section {
 
 }
 
+.emailBtn{
+
+    cursor: pointer;
+
+}
+
 
 /* Tablets grandes */
 @media (min-width: 1000px) {

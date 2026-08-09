@@ -121,29 +121,31 @@ sections.forEach(section => {
 
 
 
- document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
     const email = "lukasousa.r.j@gmail.com";
+    const emailBtns = document.querySelectorAll(".emailBtn");
 
-    const emailBtn = document.getElementById("emailBtn");
+    console.log(emailBtns);
 
-    console.log(emailBtn); // teste
+    emailBtns.forEach((emailBtn) => {
 
-    emailBtn.addEventListener("click", () => {
+        emailBtn.addEventListener("click", () => {
 
-        navigator.clipboard.writeText(email)
-            .then(() => {
-                alert("Email copiado!");
-            })
-            .catch(error => {
-                console.log(error);
-                alert("Erro ao copiar.");
-            });
+            navigator.clipboard.writeText(email)
+                .then(() => {
+                    alert("Email copiado!");
+                })
+                .catch((error) => {
+                    console.log(error);
+                    alert("Erro ao copiar.");
+                });
+
+        });
 
     });
 
 });
-
 
 
 const modalReadme = document.getElementById("modalReadme");
@@ -159,3 +161,4 @@ document.getElementById("btnCloseReadme").addEventListener("click",()=>{
     modalReadme.classList.remove("openReadme");
 
 });
+

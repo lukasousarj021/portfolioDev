@@ -20,3 +20,395 @@
 
     }
 }
+
+
+
+
+.html:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "HTML5";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.css:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "CSS3";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.js:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "JavaScript";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.react:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "React";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.node:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "Node.js";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.postgres:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "PostgreSQL";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.mongo:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "MongoDB";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.github2:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "GitHub";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.git2:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "Git";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}
+
+
+.docker:hover {
+
+    width: 3rem;
+    height: 3rem;
+
+    color:#FFFFFF;
+
+    background-color: #363636;
+
+  
+
+    &::after {
+
+        content: "Docker";
+
+        position: absolute;
+
+
+        color: var(--text-primary);
+        border-radius: 8px;
+
+        background-color: var(--bg-hover2);
+        padding: .5rem 1rem;
+
+        top: -50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        font-size: .8rem;
+        font-weight: 600;
+
+        color: var(--txtBranco);
+
+    }
+
+}

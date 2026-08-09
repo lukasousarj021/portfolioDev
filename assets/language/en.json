@@ -17,8 +17,8 @@
   },
   "about": {
     "primeiroParagrafo": "My name is Lukas, I'm 24 years old and I'm a student of [green]Systems Analysis and Development[/green], focusing on [green]Full Stack[/green] development.",
-    "segundoParagrafo": "I have experience developing web and mobile applications using [green]HTML[/green], [green]CSS[/green], [green]JavaScript[/green], [green]Node.js[/green], [green]React[/green], [green]React Native[/green], and [green]MongoDB.[/green]",
-    "terceiroParagrafo": "I strive to create modern, responsive, and efficient applications, always prioritizing performance, user experience, and best development practices.",
+    "segundoParagrafo": "I work as a Full Stack Developer, with knowledge of [green]HTML[/green], [green]CSS[/green], [green]JavaScript[/green], [green]Node.js[/green], [green]React[/green], [green]React Native[/green], and [green]databases.[/green]",
+    "terceiroParagrafo": "I am interested in creating modern, functional applications that offer a great user experience, while constantly seeking to improve my skills and learn new technologies.",
     "about.objective": "objective",
     "const": " Creating solutions that impact people and businesses."
   },
