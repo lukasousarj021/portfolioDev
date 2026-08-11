@@ -155,16 +155,11 @@
     
 }
 
-.codeContent{
-    margin:0;
-    padding:.2rem;
-
-    overflow-x:auto;
-
-    font-family:Consolas, monospace;
-    font-size:.72rem;
-    line-height:1.5;
-    white-space:pre;
+.codeContent {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    overflow-x: hidden;
 }
 
 .lineNumber{
@@ -292,4 +287,26 @@
     }
 
 
+}
+
+
+@media (max-width: 389px) {
+
+    .infos{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        font-size: .8rem;
+
+    }
+
+      .codeContent {
+        font-size: .55rem;
+        line-height: 1.6;
+    }
+
+ 
 }
