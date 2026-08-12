@@ -79,5 +79,15 @@
       "MYSQL",
       "GIT"
     ]
+  },
+   "projects" : {
+
+    "title1" : "Proyectos que",
+    "title2" : "construyen [green]soluciones_[/green]",
+    "discription" : "Aquí se presentan algunos de los proyectos desarrollados con tecnologías modernas, centrados en el [green]rendimiento, la escalabilidad y la experiencia de usuario.[/green]",
+    "buttonGithub" : "Ver en GitHub",
+    "buttonContact" : "Ponte en contacto"
+  
+  
   }
 }

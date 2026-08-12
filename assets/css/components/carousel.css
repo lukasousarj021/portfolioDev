@@ -1,0 +1,505 @@
+
+
+/* ================================
+   CAROUSEL
+================================ */
+
+.projects-carousel {
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem 0 1rem;
+}
+
+.carousel {
+    position: relative;
+
+    width: 100%;
+    height: 390px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ================================
+   CARDS
+================================ */
+
+.project-card {
+    position: absolute;
+
+    width: 220px;
+    min-height: 320px;
+
+    padding: 1.5rem;
+
+    box-sizing: border-box;
+
+    border: 1px solid #222;
+    border-radius: 1rem;
+
+    background: #030303;
+
+    text-align: center;
+
+    opacity: 0;
+    filter: brightness(.5);
+
+    transform: scale(.75);
+
+    z-index: 1;
+
+    transition:
+        transform .5s ease,
+        opacity .5s ease,
+        filter .5s ease,
+        box-shadow .5s ease;
+}
+
+
+/* ================================
+   CARD ATIVO
+================================ */
+
+.project-card.active {
+    transform: translateX(0) scale(1);
+
+    opacity: 1;
+
+    filter: brightness(1);
+
+    z-index: 3;
+
+    border-color: #00ff73;
+
+    box-shadow:
+        0 0 15px rgba(0, 255, 115, .15),
+        0 0 40px rgba(0, 255, 115, .08);
+}
+
+
+/* ================================
+   CARD ANTERIOR
+================================ */
+
+.project-card.prev {
+    transform: translateX(-280px) scale(.82);
+
+    opacity: .45;
+
+    filter: brightness(.45);
+
+    z-index: 2;
+}
+
+
+/* ================================
+   CARD PRÓXIMO
+================================ */
+
+.project-card.next {
+    transform: translateX(280px) scale(.82);
+
+    opacity: .45;
+
+    filter: brightness(.45);
+
+    z-index: 2;
+}
+
+
+/* ================================
+   STATUS
+================================ */
+
+.project-status {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: .4rem;
+
+    padding: .4rem .7rem;
+
+    border-radius: 999px;
+
+    background: rgba(0, 255, 115, .08);
+
+    color: #00ff73;
+
+    font-size: .7rem;
+}
+
+.project-status i {
+    font-size: .65rem;
+}
+
+
+/* ================================
+   ÍCONE
+================================ */
+
+.project-icon {
+    margin: 1.5rem 0 1rem;
+
+    font-size: 4rem;
+
+    color: #00ff73;
+
+    filter:
+        drop-shadow(
+            0 0 10px
+            rgba(0, 255, 115, .6)
+        );
+}
+
+
+/* ================================
+   TÍTULO
+================================ */
+
+.project-card h3 {
+    margin: 0 0 .7rem;
+
+    font-size: 1.2rem;
+
+    color: #fff;
+}
+
+
+/* ================================
+   DESCRIÇÃO
+================================ */
+
+.project-card p {
+    margin: 0;
+
+    color: #aaa;
+
+    font-size: .8rem;
+
+    line-height: 1.6;
+}
+
+
+/* ================================
+   TECNOLOGIAS
+================================ */
+
+.project-techs {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: .4rem;
+
+    margin: 1rem 0;
+}
+
+.project-techs span {
+    padding: .3rem .55rem;
+
+    border: 1px solid #222;
+
+    border-radius: 999px;
+
+    color: #aaa;
+
+    font-size: .65rem;
+
+    white-space: nowrap;
+}
+
+
+/* ================================
+   LINK
+================================ */
+
+.project-card a {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: .5rem;
+
+    margin-top: .5rem;
+
+    color: #00ff73;
+
+    text-decoration: none;
+
+    font-size: .85rem;
+}
+
+.project-card a i {
+    transition: transform .2s ease;
+}
+
+.project-card a:hover i {
+    transform: translateX(5px);
+}
+
+
+/* ================================
+   INDICADORES
+================================ */
+
+.carousel-dots {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: .6rem;
+
+    margin-top: 1rem;
+}
+
+.carousel-dots button {
+    width: 25px;
+    height: 7px;
+
+    padding: 0;
+
+    border: 0;
+
+    border-radius: 999px;
+
+    background: #292929;
+
+    cursor: pointer;
+
+    transition:
+        width .3s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.carousel-dots button.active {
+    width: 25px;
+
+    background: #00ff73;
+
+    box-shadow:
+        0 0 10px
+        rgba(0, 255, 115, .5);
+}
+
+
+/* ================================
+   SETAS DO CAROUSEL
+================================ */
+
+.carousel-arrow {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #222;
+    border-radius: 50%;
+
+    background: #050505;
+
+    color: #00ff73;
+
+    font-size: 1.1rem;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    transition:
+        background .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease,
+        transform .25s ease;
+}
+
+
+/* esquerda */
+
+.carousel-arrow-left {
+    left: 1rem;
+}
+
+
+/* direita */
+
+.carousel-arrow-right {
+    right: 1rem;
+}
+
+
+/* hover */
+
+.carousel-arrow:hover {
+    background: #00ff73;
+
+    color: #000;
+
+    border-color: #00ff73;
+
+    box-shadow:
+        0 0 15px
+        rgba(0, 255, 115, .4);
+
+    transform:
+        translateY(-50%)
+        scale(1.08);
+}
+
+
+/* clique */
+
+.carousel-arrow:active {
+    transform:
+        translateY(-50%)
+        scale(.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 800px) {
+
+    .carousel {
+        height: 370px;
+    }
+
+    .project-card {
+        width: 220px;
+    }
+
+    .project-card.prev {
+        transform:
+            translateX(-220px)
+            scale(.78);
+    }
+
+    .project-card.next {
+        transform:
+            translateX(220px)
+            scale(.78);
+    }
+}
+
+
+/* ================================
+   CELULAR
+================================ */
+
+@media (max-width: 600px) {
+
+    .projects-carousel {
+        padding-top: 1rem;
+    }
+
+    .carousel {
+        height: 360px;
+    }
+
+    .project-card {
+        width: 215px;
+
+        min-height: 310px;
+
+        padding: 1.3rem;
+    }
+
+    .project-card.prev {
+        transform:
+            translateX(-170px)
+            scale(.72);
+    }
+
+    .project-card.next {
+        transform:
+            translateX(170px)
+            scale(.72);
+    }
+
+    .project-icon {
+        font-size: 3.5rem;
+    }
+
+      .carousel-arrow {
+        width: 34px;
+        height: 34px;
+
+        font-size: .9rem;
+    }
+
+    .carousel-arrow-left {
+        left: .3rem;
+    }
+
+    .carousel-arrow-right {
+        right: .3rem;
+    }
+
+
+
+}
+
+
+/* ================================
+   CELULARES PEQUENOS
+================================ */
+
+@media (max-width: 400px) {
+
+    .carousel {
+        height: 350px;
+    }
+
+    .project-card {
+        width: 205px;
+
+        min-height: 300px;
+    }
+
+    .project-card.prev {
+        transform:
+            translateX(-145px)
+            scale(.68);
+    }
+
+    .project-card.next {
+        transform:
+            translateX(145px)
+            scale(.68);
+    }
+
+    .project-card h3 {
+        font-size: 1.05rem;
+    }
+
+    .project-card p {
+        font-size: .72rem;
+    }
+}

@@ -77,5 +77,14 @@
       "MYSQL",
       "GIT"
     ]
+  },
+  "projects" : {
+
+    "title1" : "Projects that",
+    "title2" : "build [green]solutions_[/green]",
+    "discription" : "Here are some of the projects developed using modern technologies, focusing on [green]performance, scalability, and user experience.[/green]",
+    "buttonGithub" : "View on GitHub",
+    "buttonContact" : "Get in touch"
+    
   }
 }

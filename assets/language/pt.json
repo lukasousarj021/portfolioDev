@@ -78,5 +78,15 @@
       "GIT",
       ""
     ]
+  },
+   "projects" : {
+
+    "title1" : "Projetos que",
+    "title2" : "constroem [green]soluções_[/green]",
+    "discription" : "Aqui estão alguns dos projetos que desenvolvi utilizando tecnolodias modernas, com foco em [green] performance, escalabilidade e experiência do usuário.[/green]",
+    "buttonGithub" : "Ver no GitHub",
+    "buttonContact" : "Entre em contato"
+
+
   }
 }
