@@ -498,13 +498,13 @@
 
     .project-card.prev {
         transform:
-            translateX(-125px)
+            translateX(-115px)
             scale(.68);
     }
 
     .project-card.next {
         transform:
-            translateX(125px)
+            translateX(115px)
             scale(.68);
     }
 
