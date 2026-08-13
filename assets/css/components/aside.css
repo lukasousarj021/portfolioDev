@@ -81,7 +81,7 @@
     background-color: var(--bg-tertiary);
     color: var(--text-primary);
 
-    z-index: 10;
+    z-index: 20;
 
     padding: .5rem;
     
