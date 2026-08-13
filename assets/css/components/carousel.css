@@ -46,10 +46,10 @@
 
     box-sizing: border-box;
 
-    border: 1px solid #222;
+    border: 1px solid var(--border);
     border-radius: 1rem;
 
-    background: #030303;
+    background: var(--bg-carousel);
 
     text-align: center;
 
@@ -83,7 +83,7 @@
 
     z-index: 3;
 
-    border-color: #00ff73;
+    border-color: var(--green-carousel);
 
     box-shadow:
         0 0 15px rgba(0, 255, 115, .15),
@@ -138,7 +138,7 @@
 
     background: rgba(0, 255, 115, .08);
 
-    color: #00ff73;
+    color: var(--green-carousel);
 
     font-size: .7rem;
 }
@@ -157,7 +157,7 @@
 
     font-size: 4rem;
 
-    color: #00ff73;
+    color: var(--green-carousel);
 
     filter:
         drop-shadow(
@@ -176,7 +176,7 @@
 
     font-size: 1.2rem;
 
-    color: #fff;
+    color: var(--text-primary);
 }
 
 
@@ -187,9 +187,10 @@
 .project-card p {
     margin: 0;
 
-    color: #aaa;
+    color: #8b8b8b;
 
-    font-size: .8rem;
+    font-weight: bold;
+    font-size: .82rem;
 
     line-height: 1.6;
 }
@@ -218,9 +219,10 @@
 
     border-radius: 999px;
 
-    color: #aaa;
+    color: var(--span-carousel);
 
-    font-size: .65rem;
+    font-size: .7rem;
+    font-weight: bold;
 
     white-space: nowrap;
 }

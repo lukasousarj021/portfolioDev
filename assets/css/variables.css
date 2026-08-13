@@ -16,6 +16,7 @@
     --bg-headerTerminal: #131313;
 
     --bg-aboutMe: #050505;
+    --bg-carousel: #050505;
 
     
     --scrool-terminal: #4b4b4b;
@@ -29,6 +30,7 @@
     --text-green: #00ff37;
     --text-hover-icon: #080808;
     --text-terminal: #e2e2e2;
+    --span-carousel: #afafaf;
 
     /* ========= Verde ========= */
 
@@ -36,6 +38,7 @@
     --green-hover: #00E676;
     --green-dark: #02992a;
     --green-light: #63FFA8;
+    --green-carousel: #0ff777;
     
       --hoverGreen: #5a635f77;
 
@@ -82,6 +85,7 @@
     --bg-headerTerminal: #e9e8e8;
 
     --bg-aboutMe: #f0f0f0;
+     --bg-carousel: #ffffff;
 
     --scrool-terminal: #c5c8c5;
 
@@ -94,6 +98,7 @@
     --text-green: #02a80a;
     --text-hover-icon: #ffffff;
     --text-terminal: #313131;
+    --span-carousel: #313131;
 
     /* ========= Verde ========= */
     
@@ -101,6 +106,7 @@
     --green-dark: #02992a;
     --green-light: #63FFA8;
     --green-hover: #00E676;
+
     /* ========= Bordas ========= */
 
     --border: #d3d3d3;
