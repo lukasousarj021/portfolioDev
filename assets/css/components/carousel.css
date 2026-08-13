@@ -8,6 +8,8 @@
     width: 100%;
     overflow: hidden;
     padding: 2rem 0 1rem;
+
+    
 }
 
 .carousel {
@@ -19,6 +21,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding-top: 3rem;
+
 }
 
 
@@ -263,7 +268,7 @@
     width: 25px;
     height: 7px;
 
-    padding: 0;
+    margin-top: 1.5rem;
 
     border: 0;
 
